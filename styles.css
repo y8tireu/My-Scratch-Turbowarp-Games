@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered container */
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Main link style */
+.main-link,
+.second-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main-link:hover,
+.second-link:hover {
+    background-color: #0056b3;
+}
+
+/* Add space between the links */
+.second-link {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+.second-link:hover {
+    background-color: #218838;
+}
+
+/* Bottom right corner link */
+.corner-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.corner-link:hover {
+    color: #000;
+}
